@@ -1,0 +1,14 @@
+## YAML Templatesss
+---
+  # default: -p json -p ci
+  default: -p html -p bdd
+  
+  # configuração de exibição do teste no prompt
+  ns: --no-source
+  bdd: --format pretty
+  ci: --format progress
+  
+  # configuração do tipo de report desejado e criação do mesmo
+  html: --format html --out=reports/report.html
+  json: --format json --out=reports/report.json
+  

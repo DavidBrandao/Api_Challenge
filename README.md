@@ -11,6 +11,7 @@
 - Instalar as dependências de gem's do projeto (Execute os códigos abaixo)
   - gem install bundler
   - bundle install
+- Criar uma pasta vazia chamada "Reports" dentro da pasta "Api_Challenge" 
 - Nesta etapa o código está pronto para ser executado
 
 3. Como rodar o código   
